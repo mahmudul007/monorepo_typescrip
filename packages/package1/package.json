@@ -1,0 +1,15 @@
+{
+  "name": "@project59/package1",
+  "version": "1.0.0",  
+  "devDependencies": {},
+  "main": "dist/app.js",
+  "types": "dist/app.d.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

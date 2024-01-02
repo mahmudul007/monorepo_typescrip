@@ -1,0 +1,15 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "dist",
+      "composite": true,
+      "paths": {
+        "@project59/*": ["./packages/*"]
+      }
+    },
+    "include": [
+     "./src/**/*"
+    ]
+   
+  }

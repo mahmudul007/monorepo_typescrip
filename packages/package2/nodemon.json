@@ -1,0 +1,10 @@
+{
+    "watch":"../**/src/ ",
+    "ext": "ts",
+    "ignore": [
+        "../**/src/**/*.spec.ts"
+    ],
+    "exec": [
+        "npm run build -w @project59/package1 && ts-node ./src/app.ts"
+    ]
+}
