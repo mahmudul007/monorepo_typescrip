@@ -150,9 +150,10 @@ This way, all your packages will be prefixed with @projectname, and won’t caus
 # we need to create individual package 
 
 ``` bash
-npm init --workspace @project-59/packages1 -y
+npm init --workspace project-59/packages1 -y
 
 ```
+then go into package1 folder and rename name as @project-59/package1
 as like this initialize next packages
 
 then package.json will create into packages1 directory
