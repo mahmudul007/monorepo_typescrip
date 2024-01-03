@@ -137,7 +137,7 @@ example ts config
 ```
 
 # Creating a package
-# alternative good approach for this use @projectname
+#  good approach for this use @projectname or @packagename
 
 Scoping helps you avoid any confusion with existing packages.
 In order to use scoping, when calling
