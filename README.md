@@ -167,6 +167,12 @@ npm install --save @project69/package1 --workspace packages/package2
 ```
 
 
+# runnign individual package
+``` bash
+npm run dev  -w packages/package2
+```
+
+
 
 
 
