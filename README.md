@@ -137,17 +137,6 @@ example ts config
 ```
 
 # Creating a package
-
-we need to create individual package 
-
-``` bash
-npm init --workspace packages/packages1 -y
-
-```
-as like this initialize next packages
-
-then package.json will create into packages1 directory
-
 # alternative good approach for this use @projectname
 
 Scoping helps you avoid any confusion with existing packages.
@@ -157,6 +146,25 @@ This way, all your packages will be prefixed with @projectname, and won’t caus
 ```bash
  npm init  --scope @project-59
 ````
+
+# we need to create individual package 
+
+``` bash
+npm init --workspace @project-59/packages1 -y
+
+```
+as like this initialize next packages
+
+then package.json will create into packages1 directory
+
+
+
+
+# then 
+``` bash 
+npm install --save @project69/package1 --workspace packages/package2
+
+```
 
 
 
