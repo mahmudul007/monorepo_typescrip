@@ -4,6 +4,7 @@
 create packages folder ,where have multiple module or package
 
 structure of this is ,
+``` bash
 .
 ├── node_modules
 ├── package-lock.json
@@ -21,6 +22,7 @@ then you will get this node modules
 ├── package1 -> ../packages/package1
 ├── package2 -> ../packages/package2
 
+```
 
 # Steps
 
