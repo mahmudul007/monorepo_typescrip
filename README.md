@@ -148,7 +148,7 @@ as like this initialize next packages
 
 then package.json will create into packages1 directory
 
-# alternative good approach for this for @projectname
+# alternative good approach for this use @projectname
 
 Scoping helps you avoid any confusion with existing packages.
 In order to use scoping, when calling
